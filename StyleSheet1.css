@@ -1,0 +1,44 @@
+﻿body {
+}
+
+
+.e-card {
+    width: 100px;
+    height: 100px;
+}
+
+.about {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+ .brandImg {
+
+    width: 40px;
+    height: 20px;
+}
+
+.navbar-brand {
+    background-size: 40px 40px;
+}
+
+.navBar {
+    background-color: #74D6FF;
+    border-color: #74D6FF;
+}
+
+.img {
+    height: 350px;
+    width: 300px;
+    /*object-fit: scale-down;*/
+}
+
+ 
+.label_amount, .amount {
+  display: inline-block;
+  width: 48%;
+}
