@@ -7,6 +7,10 @@ namespace MIlestones
 {
     public class Products
     {
+        List<CartItem> items = new List<CartItem>();
+
+
+
         private string id;
         private string name;
 		private string description;
