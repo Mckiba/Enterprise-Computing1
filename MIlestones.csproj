@@ -112,7 +112,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -124,7 +126,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Image\Screen Shot 2021-09-21 at 10.36.09 AM_adobespark.png" />
+    <Content Include="img\text.png" />
+    <Content Include="WebForm4.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Image\alicia-petresc-BciCcl8tjVU-unsplash.jpg" />
     <Content Include="Image\benjamin-rascoe-ItqFmSxKnIg-unsplash.jpg" />
@@ -139,7 +142,6 @@
     <Content Include="Image\phil-monte-4V4t0JcOM5E-unsplash.jpg" />
     <Content Include="Image\santhosh-kumar-RqYTuWkTdEs-unsplash %281%29.jpg" />
     <Content Include="Image\santhosh-kumar-RqYTuWkTdEs-unsplash.jpg" />
-    <Content Include="Image\Screen Shot 2021-09-21 at 10.36.09 AM.png" />
     <Content Include="Products.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -170,6 +172,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="style.css" />
     <Content Include="StyleSheet1.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -186,6 +189,7 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CartItem.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -199,6 +203,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -233,9 +244,17 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ErrorPages\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

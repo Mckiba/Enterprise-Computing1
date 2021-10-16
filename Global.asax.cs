@@ -20,6 +20,8 @@ namespace MIlestones
             Application["featuredProduct1"] = "";
             Application["featuredProduct2"] = "";
             Application["featuredProduct3"] = "";
+            Application["userCount"] = 0;
+
         }
     }
 }
