@@ -13,15 +13,13 @@ namespace MIlestones
     {
         void Application_Start(object sender, EventArgs e)
         {
+
+            RoleActions roleActions = new RoleActions();
+            roleActions.createAdmin();
+
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            Application["featuredProduct1"] = "";
-            Application["featuredProduct2"] = "";
-            Application["featuredProduct3"] = "";
-            Application["userCount"] = 0;
-
         }
     }
 }
