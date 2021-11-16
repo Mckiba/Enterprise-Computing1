@@ -11,9 +11,16 @@ namespace MIlestones
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           ftProduct1.ImageUrl = Application["featuredProduct1"].ToString();
-           ftProduct2.ImageUrl = Application["featuredProduct2"].ToString();
-           ftProduct3.ImageUrl = Application["featuredProduct3"].ToString();
+
+            Products prod1 = new Products("1001", "Icon Pattern Slim Fit Shirt", "Black: Small", "Tops", "30", "monica-dahiya-597H22lgcdo-unsplash.jpg");
+            Products prod2 = new Products("1002", "Oversized Fleece  Pants", "Orange: S", "Bottom", "55", "mark-adriane-NQhYx-Xk9Y0-unsplash.jpg");
+            Products prod3 = new Products("1003", "Striped Slim Fit Shirt", "Orange: M", "Tops", "25.00", "phil-monte-4V4t0JcOM5E-unsplash.jpg");
+
+
+               ftProduct1.ImageUrl = "Image/" + prod1.Image;
+
+            ftProduct2.ImageUrl = "Image/" + prod2.Image;
+            ftProduct3.ImageUrl = "Image/" + prod3.Image;
 
         }
 

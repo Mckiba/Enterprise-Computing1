@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIlestones", "MIlestones.csproj", "{9E0173F1-6A58-456C-81CD-C6309AE1437B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIlestones", "MIlestones.csproj", "{DC24533D-5D81-483F-88E5-A33F8EB77E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9E0173F1-6A58-456C-81CD-C6309AE1437B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E0173F1-6A58-456C-81CD-C6309AE1437B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E0173F1-6A58-456C-81CD-C6309AE1437B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E0173F1-6A58-456C-81CD-C6309AE1437B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC24533D-5D81-483F-88E5-A33F8EB77E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC24533D-5D81-483F-88E5-A33F8EB77E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC24533D-5D81-483F-88E5-A33F8EB77E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC24533D-5D81-483F-88E5-A33F8EB77E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7ED7725F-42DE-4575-AE39-51C59EB482C7}
+		SolutionGuid = {1C32024A-8BFE-448C-966E-DA1F0B953705}
 	EndGlobalSection
 EndGlobal

@@ -1,25 +1,17 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="MIlestones.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>We'd Like to Hear From You</h2>
-
-    <article id="about" class="about">
-         <address>
-        232 Old Hope Road<br />
-        Kingson, Kington 6<br />
-        Jamaica<br />
-
-        Phone:<abbr title="Phone"></abbr>
-        +1(876)329.4567<br />
-
-         Email:<abbr title="Email"></abbr>
-       support@brands.com
-
-        
+    <h2><%: Title %>.</h2>
+    <h3>Your contact page.</h3>
+    <address>
+        One Microsoft Way<br />
+        Redmond, WA 98052-6399<br />
+        <abbr title="Phone">P:</abbr>
+        425.555.0100
     </address>
 
-      </article>
-  
-
- 
+    <address>
+        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    </address>
 </asp:Content>
